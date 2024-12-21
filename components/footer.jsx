@@ -11,7 +11,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">ContainerPro</h3>
+            <h3 className="text-lg font-semibold mb-4">ProfiKontejnery.cz</h3>
             <p className="text-gray-400">
               {t("footer.description")}
             </p>
@@ -47,7 +47,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} ContainerPro. {t("footer.rights")}</p>
+          <p>&copy; {new Date().getFullYear()} ProfiKontejnery.cz. {t("footer.rights")}</p>
         </div>
       </div>
     </footer>

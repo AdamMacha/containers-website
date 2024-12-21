@@ -5,6 +5,7 @@ import { ArrowRight, Box, Phone, Mail, MapPin } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "@/lib/hooks/useTranslation";
+import Image from "next/image";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -14,9 +15,11 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1577540155543-d54796a820d9?auto=format&fit=crop&q=80"
-            alt={t("home.hero.imageAlt")}
+          <Image
+            src="/images/containers.jpg"
+            alt="Hero Background"
+            width={1920}
+            height={1080}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/50" />
@@ -88,10 +91,12 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="relative aspect-square overflow-hidden rounded-lg"
               >
-                <img
-                  src={image}
+                <Image
+                  src={`/images/kontejner${index + 1}.jpg`}
                   alt={t("home.gallery.imageAlt", { number: index + 1 })}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  width={600}
+                  height={600}
                 />
               </motion.div>
             ))}

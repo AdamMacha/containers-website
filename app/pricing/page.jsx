@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "@/lib/hooks/useTranslation";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Pricing() {
   const { t } = useTranslation();
@@ -32,10 +34,12 @@ export default function Pricing() {
               className="bg-white rounded-lg shadow-sm overflow-hidden"
             >
               <div className="aspect-video relative">
-                <img
+                <Image
                   src={container.image}
                   alt={t(`pricing.containers.${container.type}.title`)}
                   className="w-full h-full object-cover"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="p-6">
@@ -57,7 +61,9 @@ export default function Pricing() {
                   <p className="text-3xl font-bold text-blue-600">{container.price} Kč</p>
                   <p className="text-sm text-gray-500">{t("pricing.vat")}</p>
                 </div>
-                <Button className="w-full mt-4">{t("pricing.requestQuote")}</Button>
+                <Link href="/contact">
+                  <Button className="w-full mt-4">{t("pricing.requestQuote")}</Button>
+                </Link>
               </div>
             </motion.div>
           ))}
