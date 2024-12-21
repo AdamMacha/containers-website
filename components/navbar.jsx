@@ -29,7 +29,7 @@ const Navbar = () => {
         <button className="text-black md:hidden" onClick={toggleMenu}>
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
-        <div className={`md:flex ${isMenuOpen ? "block" : "hidden"} absolute md:relative 2xl:top-16 left-0 w-full md:w-auto bg-white md:bg-transparent`}>
+        <div className={`md:flex ${isMenuOpen ? "block" : "hidden"} absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-white md:bg-transparent`}>
           <Navigation />
         </div>
       </nav>
