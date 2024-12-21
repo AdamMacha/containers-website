@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/footer.jsx", "app/contact/page.jsx", "app/page.jsx", "app/pricing/page.jsx", "components/navigation.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/footer.jsx", "app/contact/page.jsx", "app/page.jsx", "app/pricing/page.jsx", "components/navigation.jsx", "lib/i18n/translations.js", "lib/hooks/useTranslation.js"],
   "exclude": ["node_modules"]
 }
