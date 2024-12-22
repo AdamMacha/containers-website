@@ -97,7 +97,7 @@ const containerTypes = [
     features: [
       "6.06m × 2.44m × 2.59m",
       "33.2m³",
-      "28,200kg"
+      "21,800kg"
     ]
   },
   {
@@ -107,7 +107,7 @@ const containerTypes = [
     features: [
       "6.06m × 2.44m × 2.59m",
       "33.2m³",
-      "28,200kg"
+      "21,800kg"
     ]
   },
   {
@@ -116,7 +116,7 @@ const containerTypes = [
     price: "55 000",
     features: [
       "12.19m × 2.44m × 2.59m",
-      "76.4m³",
+      "67m³",
       "26,600kg"
     ]
   },
@@ -126,7 +126,7 @@ const containerTypes = [
     price: "75 000",
     features: [
       "12.19m × 2.44m × 2.59m",
-      "76.4m³",
+      "67.4m³",
       "26,600kg"
     ]
   },
@@ -136,7 +136,7 @@ const containerTypes = [
     price: "92 000",
     features: [
       "12.19m × 2.44m × 2.59m",
-      "76.4m³",
+      "67.4m³",
       "26,600kg"
     ]
   }
