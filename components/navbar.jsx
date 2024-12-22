@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between h-16">
         <Link href="/" className="flex items-center space-x-2">
           <Container className="w-8 h-8 text-blue-600" />
-          <span className="font-bold text-xl">ProfiKontejnery.cz</span>
+          <span className="font-bold text-xl">KontejnerZaBabku.cz</span>
         </Link>
         <button className="text-black md:hidden" onClick={toggleMenu}>
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}

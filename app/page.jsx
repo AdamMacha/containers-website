@@ -92,7 +92,7 @@ export default function Home() {
                 className="relative aspect-square overflow-hidden rounded-lg"
               >
                 <Image
-                  src={`/images/kontejner${index + 1}.jpg`}
+                  src={`/images/kontejner${index + 7}.jpg`}
                   alt={t("home.gallery.imageAlt", { number: index + 1 })}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   width={600}

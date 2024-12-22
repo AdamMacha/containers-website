@@ -36,7 +36,7 @@ export default function Contact() {
                   <div>
                     <p className="font-medium">{t("contact.info.phone")}</p>
                     <a href="tel:+420608028801" className="text-gray-600 hover:text-blue-600">
-                      +420 608 028 801
+                      +420 608 850 040
                     </a>
                   </div>
                 </div>
