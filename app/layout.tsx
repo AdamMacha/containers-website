@@ -12,8 +12,8 @@ import Navbar from "@/components/navbar";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Premiové kontejnery',
-  description: 'Premiové nákladní kontejnery na prodej po celé České republice. Různé druhy a rozměry k dispozici.',
+  title: 'KupSiKontejner.cz',
+  description: 'Levné nákladní kontejnery na prodej po celé České republice. Různé druhy a rozměry k dispozici.',
 };
 
 export default function RootLayout({
