@@ -92,7 +92,7 @@ export default function Pricing() {
 const containerTypes = [
   {
     type: "standard",
-    image: "images/kontejner11.jpg",
+    image: "images/kontejner26.jpg",
     price: "46 000",
     features: [
       "6.06m × 2.44m × 2.59m",
@@ -102,7 +102,7 @@ const containerTypes = [
   },
   {
     type: "highCube",
-    image: "images/kontejner8.jpg",
+    image: "images/kontejner24.jpg",
     price: "75 000",
     features: [
       "6.06m × 2.44m × 2.59m",
@@ -112,7 +112,7 @@ const containerTypes = [
   },
   {
     type: "mini",
-    image: "images/kontejner12.jpg",
+    image: "images/kontejner20.jpg",
     price: "55 000",
     features: [
       "12.19m × 2.44m × 2.59m",
@@ -122,7 +122,7 @@ const containerTypes = [
   },
   {
     type: "mini2",
-    image: "images/kontejner7.jpg",
+    image: "images/kontejner27.jpg",
     price: "75 000",
     features: [
       "12.19m × 2.44m × 2.59m",
@@ -132,7 +132,7 @@ const containerTypes = [
   },
   {
     type: "mini3",
-    image: "images/kontejner9.jpg",
+    image: "images/kontejner23.jpg",
     price: "92 000",
     features: [
       "12.19m × 2.44m × 2.59m",
