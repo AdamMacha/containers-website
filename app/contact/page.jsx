@@ -58,7 +58,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
+{/* 
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h2 className="text-2xl font-semibold mb-6">{t("contact.hours.title")}</h2>
               <div className="space-y-2">
@@ -75,7 +75,7 @@ export default function Contact() {
                   <span className="text-gray-600">{t("contact.hours.closed")}</span>
                 </p>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
