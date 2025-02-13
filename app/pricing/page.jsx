@@ -58,8 +58,8 @@ export default function Pricing() {
                   ))}
                 </div>
                 <div className="border-t pt-4">
-                  <p className="text-3xl font-bold text-blue-600">{container.price} Kč</p>
-                  <p className="text-sm text-gray-500">{t("pricing.vat")}</p>
+                  <p className="text-3xl font-bold text-blue-600">{container.price}</p>
+                  {/* <p className="text-sm text-gray-500">{t("pricing.vat")}</p> */}
                 </div>
                 <Link href="/contact">
                   <Button className="w-full mt-4">{t("pricing.requestQuote")}</Button>
@@ -93,7 +93,7 @@ const containerTypes = [
   {
     type: "standard",
     image: "images/kontejner26.jpg",
-    price: "46 000",
+    price: "Cena na vyžádání",
     features: [
       "6.06m × 2.44m × 2.59m",
       "33.2m³",
@@ -103,7 +103,7 @@ const containerTypes = [
   {
     type: "highCube",
     image: "images/kontejner24.jpg",
-    price: "75 000",
+    price: "Cena na vyžádání",
     features: [
       "6.06m × 2.44m × 2.59m",
       "33.2m³",
@@ -113,7 +113,7 @@ const containerTypes = [
   {
     type: "mini",
     image: "images/kontejner20.jpg",
-    price: "55 000",
+    price: "Cena na vyžádání",
     features: [
       "12.19m × 2.44m × 2.59m",
       "67m³",
@@ -123,7 +123,7 @@ const containerTypes = [
   {
     type: "mini2",
     image: "images/kontejner27.jpg",
-    price: "75 000",
+    price: "Cena na vyžádání",
     features: [
       "12.19m × 2.44m × 2.59m",
       "67.4m³",
@@ -133,7 +133,7 @@ const containerTypes = [
   {
     type: "mini3",
     image: "images/kontejner23.jpg",
-    price: "92 000",
+    price: "Cena na vyžádání",
     features: [
       "12.19m × 2.44m × 2.59m",
       "67.4m³",
