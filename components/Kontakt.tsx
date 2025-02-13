@@ -9,9 +9,9 @@ import { sendEmail } from '../utils/send-email';
 import { useTranslation } from "@/lib/hooks/useTranslation";
 
 export type FormData = {
-  name: string;
+  name: any;
   email: string;
-  subject: string;
+  subject: any;
   message: string;
 };
 
