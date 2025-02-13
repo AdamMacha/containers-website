@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
 
   const mailOptions: Mail.Options = {
     from: email,
-    to: "info@technologio.eu",
+    to: "janovskyroman@seznam.cz",
     subject: subject,
     text: 
     `Nová zpráva od ${name} z e-mailové adresy (${email})` + '\n\n' +
