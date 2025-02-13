@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
     to: "info@technologio.eu",
     subject: subject,
     text: 
-    `Nová zpráva od ${name} z e-mailové adresy (${email})` + '\n' +
+    `Nová zpráva od ${name} z e-mailové adresy (${email})` + '\n\n' +
     message,
   };
 
