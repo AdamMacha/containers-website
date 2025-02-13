@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
         if (!err) {
           console.log('Email sent');
         } else {
-          reject(err.message);
+          console.log('Email not sent');
         }
       });
     });
@@ -37,6 +37,6 @@ export async function POST(request: NextRequest) {
     await sendMailPromise();
     return NextResponse.json({ message: 'Email sent' });
   } catch (err) {
-    return NextResponse.json({ error: err }, { status: 500 });
+    return console.error(err);
   }
 }
